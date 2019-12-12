@@ -25,6 +25,12 @@ function omega = objectivePlot(x)
     plot(t,f_total);
     figure
     plot(t,omega);
+    title('Changing Angular velocities')
+    xlabel('time (s)')
+    ylabel('angular velocity rad/s')
     figure
     plot(t,alpha);
+    title('Changing Angular accelerations')
+    xlabel('time (s)')
+    ylabel('angular acceleration rad/s^2')
     

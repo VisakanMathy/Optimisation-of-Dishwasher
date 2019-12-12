@@ -15,7 +15,8 @@ options = optimoptions('fmincon','Display','iter','Algorithm','interior-point');
 
 [x, fval]=fmincon(objectiveFn,x0,A,b,Aeq,beq,lb,ub,nonlincon,options)
 problem = createOptimProblem('fmincon','x0',x0,'objective',objectiveFn,'nonlcon',nonlincon,'lb',lb,'ub',ub);
-x = run(GlobalSearch,problem)
+x = run(GlobalSearch,problem);
 [x, fval]=fmincon(objectiveFn,x,A,b,Aeq,beq,lb,ub,nonlincon,options)
+objectivePlot(x);
 
 

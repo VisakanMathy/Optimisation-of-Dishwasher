@@ -7,4 +7,5 @@ function [c,ceq] = nlcon(x)
     ceq(2) = -0.03+((((vp)^2-(x(6)*sind(x(1))))^2));
     c(2) = +x(6)*pi*x(3)^2 -0.1;
     c(3) = -x(6)*pi*x(3)^2 +0.05;
+    ceq(3) = checkForInt(x(2));
     %c=0;
