@@ -3,7 +3,6 @@ clear all
 objectiveFn = @objective;
 x0=[20,8,0.0025,0.05,0.05,6];
 
-
 A = [];
 b=[];
 Aeq = [];
@@ -14,8 +13,8 @@ nonlincon = @nlcon;
 
 problem = createOptimProblem('fmincon','x0',x0,'objective',objectiveFn,'nonlcon',nonlincon,'lb',lb,'ub',ub);
 x = run(GlobalSearch,problem);
-options = optimoptions('fmincon','Display','iter','Algorithm','sqp')
-[x, fval]=fmincon(objectiveFn,x,A,b,Aeq,beq,lb,ub,nonlincon,options)
+options = optimoptions('fmincon','Display','iter','Algorithm','sqp');
+[x, fval]=fmincon(objectiveFn,x,A,b,Aeq,beq,lb,ub,nonlincon,options);
 objectivePlot(x);
 x_optimal = x;
 
@@ -103,6 +102,7 @@ ip/runs;
 sqp/runs;
 as/runs;
 %% Sensitivity analysis of speed
+options = optimoptions('fmincon','Display','iter','Algorithm','sqp');
 for j = 2:19
     x = x_optimal;
     lb=[0,4,0.0015,0.02,0,j];
@@ -118,7 +118,7 @@ xlabel('Jet velocity (m/s)')
 ylabel('Angular velocity (rad/s)')
 
 %% Sensitivity analysis of radius of hole
-
+options = optimoptions('fmincon','Display','iter','Algorithm','sqp');
 for j = 1:15
     x=x_optimal;
     lb=[0,4,(14+j)*0.0001,0.02,0,2];
@@ -135,6 +135,7 @@ ylabel('Angular velocity (rad/s)')
 
 
 %% Sensitivity analysis of angles
+options = optimoptions('fmincon','Display','iter','Algorithm','sqp');
 for j = 1:10
     x=x_optimal;
     lb=[(j-1)*10,4,0.0015,0.02,0,2];
