@@ -22,8 +22,6 @@ function omega = objectivePlot(x)
         j=j+1;
     end
     figure
-    plot(t,f_total);
-    figure
     plot(t,omega);
     title('Changing Angular velocities')
     xlabel('time (s)')
