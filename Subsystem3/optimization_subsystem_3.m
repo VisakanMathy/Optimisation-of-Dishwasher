@@ -1,3 +1,4 @@
+tic
 lb = [0.95, 100000, 100000, 0.009, 4]; %lower bound for each parameter
 ub = [1, 150000, 150000, inf, inf]; %upper bound for each parameter
 
@@ -27,4 +28,4 @@ disp(['Optimized inlet pressure: ' num2str(min(1,2))])
 disp(['Optimized outlet pressure: ' num2str(min(1,3))])
 disp(['Optimized radius: ' num2str(min(1,4))])
 disp(['Optimized fluid velocity: ' num2str(min(1,5))])
-
+toc
