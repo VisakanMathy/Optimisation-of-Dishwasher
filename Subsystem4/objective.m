@@ -6,7 +6,6 @@ function omega = objective(x)
     t(1) = 0;
     alpha(1) = 0;
     f_total(1) = 0;
-    vp = 2.943;
     j=1;
     Kn = 1;
     while sum(omega)==0 || round(omega(j),5) ~= round(omega(j-1),5)

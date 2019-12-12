@@ -43,7 +43,7 @@ figure
 plot(numberOfHoles,omega)
 title('Number of holes effect on omega')
 xLabel('Number of holes')
-yLabel('Angular velocity (rad/s)')
+yLabel('omega (rad/s)')
 
 
 %% Sensitivity analysis of speed
@@ -60,7 +60,7 @@ figure
 plot(speed,omega_speed)
 title("Jet velocity's effect on omega")
 xLabel('Jet velocity (m/s)')
-yLabel('Angular velocity (rad/s)')
+yLabel('omega (rad/s)')
 
 %% Sensitivity analysis of radius of hole
 
@@ -74,10 +74,9 @@ omega_radius(j)=fval;
 end
 figure
 plot(radius,omega_radius)
-title("Radius of hole's effect on omega")
-xLabel('Radius (m)')
-yLabel('Angular velocity (rad/s)')
-
+title('Number of holes effect on omega')
+xLabel('Number of holes')
+yLabel('omega (rad/s)')
 
 %% Sensitivity analysis of angles
 
@@ -91,9 +90,6 @@ omega_angle(j)=fval;
 end
 figure
 plot(angle,omega_angle)
-title("Angle of hole's effect on omega")
-xLabel('Angle (deg)')
-yLabel('Angular velocity (rad/s)')
 
 
     
