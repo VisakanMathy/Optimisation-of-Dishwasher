@@ -9,4 +9,4 @@ The document [Best_pipe_Cross_section.m](Best_pipe_Cross_section.m) is a text wa
 At the end of the file is a section that, once run, will display a graph showing how hydraulic diameter decreases as a the number of sides of the shape increases
 
 ## Piping Diagram
-[washing machine diagram.png](washing machine diagram.png) is an image showing the simplified layout of the piping inside a dishwasher water distribution system
+[washing machine diagram.png](washing_machine_diagram.png) is an image showing the simplified layout of the piping inside a dishwasher water distribution system
