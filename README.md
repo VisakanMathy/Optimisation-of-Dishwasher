@@ -62,9 +62,7 @@ This subsystem optimises power output (wattage) of centrifugal pump's motor.
 
 ### How to run
 
-Run the [optimization_subsystem_3.m](Subsystem3/optimization_subsystem_3.m) file. To produce all the graphs.
-The results can also be produced by running each section individually allowing for finding results for tables.
-The code follows a logical order presented in the report
+Run the [optimization_subsystem_3.m](Subsystem3/optimization_subsystem_3.m) file.
 
 ### Summary
 
@@ -77,6 +75,8 @@ The spray mechanism is the subsystems which designates how the water is distribu
 ### How to run
 
 Run the [spray_mechanism_main.m](Subsystem4/spray_mechanism_main.m) file
+The results can also be produced by running each section individually chronologically. (Makes it easier to keep track of tables)
+The code follows a logical order presented in the report
 
 ### Summary
 
