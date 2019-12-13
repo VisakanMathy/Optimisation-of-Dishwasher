@@ -62,7 +62,14 @@ disp(['Total price for Subsystem 1 & 3 (pence): ' num2str((cost_value))])
 disp(['Time (s): ' num2str(time_for_algorithm) ])
 
 % SUBSYSTEM 2 (needs a seperate solver because it maximises)
-
+    % subsystem 2
+    
+%----Parameters---- 
+h = 1525; % convective heat transfer coefficient of water (W/m^2K)
+T1 = 335.5; % Final temp of water (K)
+T2 = 328; %Temp of water fed in (K)
+kB = [5.92, 13.46, 3.46]; % Thermal conductivities (W/mK)
+eB = [1420e03, 726e03, 278e03]; % Dielectric strengths (V/m)
 % ----Material dependant properties---- (use Aluminia)
 k = kB(2);
 e = eB(2);
