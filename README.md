@@ -55,6 +55,7 @@ Run the [Subsystem_2.m](Subsystem2/Subsytem_2.m) file.
 The heating element design is optimised
 
 ## Sub system 3 - Pump
+<<<<<<< HEAD
 
 intro here
 
@@ -62,6 +63,11 @@ intro here
 
 Run the Main.m file
 
+=======
+This subsystem optimises power output (wattage) of centrifugal pump's motor.
+### How to run
+Run the [optimization_subsystem_3.m](Subsystem3/optimization_subsystem_3.m) file.
+>>>>>>> 93dc763c4a3862143b8dc194c38ba7929668a8ac
 ### Summary
 
 Pipes are optimised
