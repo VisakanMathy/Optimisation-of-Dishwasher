@@ -13,6 +13,7 @@ This enabled each author to create models of their assigned subsystem before opt
 
 Afterwards the models were combined to create a single unified optimization problem. This was solved using SQP algorithm yielding the result of £197.18 total cost.
 
+## Dependancies
 The project was completed entirely using MATLAB with some addition toolboxes which are required to run these programs.
 
 - [Deep Learning Toolbox](https://uk.mathworks.com/products/deep-learning.html?s_tid=AO_PR_info)
@@ -78,3 +79,6 @@ Run the [spray_mechanism_main.m](Subsystem4/spray_mechanism_main.m) file
 ### Summary
 
 Ultimately a configuration is defined and the rotation is optimised to have an agular velocity 18 rad/s
+
+## Report
+For further indepth analysis take a look at the [report](FinalReport_Group2.pdf)
