@@ -21,9 +21,9 @@ Run the system_level_main.m file.
 The system is optimised in terms of cost.
 ## Sub system 1 - Piping
 This system is to optimise the pipe size, diameter and layout for teh water distribution within the dishwasher.
-Contained in the Subsystem1 folder is another MATLAB document "Best_pipe_Cross_section.m" which shows and proves that a circle is the optimum shape for a pipe cross section.
+Contained in the Subsystem1 folder is another MATLAB document [Best_pipe_Cross_section.m](Subsystem1/Best_pipe_Cross_section.m) which shows and proves that a circle is the optimum shape for a pipe cross section.
 ### How to run
-Run subsystem1.m file, found in Subsystem1 folder
+Run [subsystem1.m](Subsystem1/subsystem1.m) file, found in Subsystem1 folder
 ### Summary
 Pipes are optimised
 ## Sub system 2 - Heating element
