@@ -16,7 +16,7 @@ The  project was completed entirely using MATLAB with some addition toolboxes wh
 ## System Level
 This combines subsystem 1,2 and 3 to find the monetary cost value over the dishwashers lifetime. Subsystem 4 has been ommited because its contributions are negliable.
 ### How to run
-Run the system_level.m file.
+Run the system_level_main.m file.
 ### Summary
 The system is optimised in terms of cost.
 ## Sub system 1 - Piping
@@ -38,8 +38,8 @@ Run the Main.m file
 ### Summary
 Pipes are optimised
 ## Sub system 4 - Spray mechanism
-intro here
+The spray mechanism is the subsystems which designates how the water is distributed across the plates and the goal of this problem was to find the optimal configuration to optimise the rotation of the spray arm in order to increase the cleaning efficiency
 ### How to run
-Run the Main.m file 
+Run the spray_mechanism_main.m file 
 ### Summary
-Pipes are optimised
+Ultimately a configuration is defined and the rotation is optimised to have an agular velocity 18 rad/s
