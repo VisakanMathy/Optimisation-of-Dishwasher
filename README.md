@@ -32,7 +32,7 @@ The system is optimised in terms of cost.
 
 ## Sub system 1 - Piping
 
-This system is to optimise the pipe size, diameter and layout for teh water distribution within the dishwasher. 
+This system is to optimise the pipe size, diameter and layout for the water distribution within the dishwasher. 
 Contained in the Subsystem1 folder is another MATLAB document [Best_pipe_Cross_section.m](Subsystem1/Best_pipe_Cross_section.m) which shows and proves that a circle is the optimum shape for a pipe cross section.
 
 ### How to run
@@ -65,7 +65,7 @@ Run the [optimization_subsystem_3.m](Subsystem3/optimization_subsystem_3.m) file
 
 ### Summary
 
-Pupmp is optimised
+Pump is optimised
 
 ## Sub system 4 - Spray mechanism
 
