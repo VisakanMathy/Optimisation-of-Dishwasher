@@ -1,13 +1,16 @@
 # DE-4 Optimisation: Optimsing the environmental impact of a dishwasher
 Christopher Turner (Subsystem 1), Francesca Suer (Subsystem 2), Seung Huh (Subsystem 3), Visakan Mathivannan (Subsystem 4)
 
-This repository contains the teams project work for solving an optimisation problem. You can find a copy of our final report alongside code for each individual subsystem and for the system level problem
-
-The dishwasher could be broken down into a series of components each subsystem chosen was designed to optimise the transfer of either heat or pressure and they were as follows:
+A dishwasher is a complicated kitchen appliance used to wash plates and utensils, commonly found in homes under the kitchen countertop. The aim of this project was to reduce the environmental impact of a dishwasher. This was achieved on a system level by minimising the cost throughout the lifetime of the dishwasher through reducing the energy consumption of the pump, friction losses in the piping, maximizing the efficiency of the heating element and maximizing the cleaning ability of the spray arms. The problem was split into four subsystems: 
 * Piping
 * Heating element
 * Pump
 * Spray mechanism
+
+This enabled each author to create models of their assigned subsystem before optimizing each part. 
+
+Afterwards the models were combined to create a single unified optimization problem. This was solved using SQP algorithm yielding the result of £197.18 total cost. 
+
 
 The  project was completed entirely using MATLAB with some addition toolboxes which are required to run these programs.
 
@@ -20,10 +23,9 @@ Run the system_level_main.m file.
 ### Summary
 The system is optimised in terms of cost.
 ## Sub system 1 - Piping
-This system is to optimise the pipe size, diameter and layout for teh water distribution within the dishwasher.
-Contained in the Subsystem1 folder is another MATLAB document [Best_pipe_Cross_section.m](Subsystem1/Best_pipe_Cross_section.m) which shows and proves that a circle is the optimum shape for a pipe cross section.
+intro here
 ### How to run
-Run [subsystem1.m](Subsystem1/subsystem1.m) file, found in Subsystem1 folder
+Run the Main.m file 
 ### Summary
 Pipes are optimised
 ## Sub system 2 - Heating element
@@ -33,7 +35,7 @@ Run the Subsystem_2.m file.
 ### Summary
 The heating element design is optimised
 ## Sub system 3 - Pump
-This subsystem optimises centrifugal pump's motor power (wattage) output.
+intro here
 ### How to run
 Run the Main.m file 
 ### Summary
