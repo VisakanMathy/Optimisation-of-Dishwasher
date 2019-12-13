@@ -16,7 +16,7 @@ The  project was completed entirely using MATLAB with some addition toolboxes wh
 ## System Level
 This combines subsystem 1,2 and 3 to find the monetary cost value over the dishwashers lifetime. Subsystem 4 has been ommited because its contributions are negliable.
 ### How to run
-Run the system_level.m file.
+Run the system_level.m file with system_level_cons.m and system_level_cons2.m open.
 ### Summary
 The system is optimised in terms of cost.
 ## Sub system 1 - Piping
@@ -28,7 +28,7 @@ Pipes are optimised
 ## Sub system 2 - Heating element
 This subsystem optimises heat flux (a measure of watts per square meter) for the heating element.
 ### How to run
-Run the Subsystem_2.m file.
+Run the Subsystem_2.m file with cons2.m, cons3.m, cons4.m and cons5.m open
 ### Summary
 The heating element design is optimised
 ## Sub system 3 - Pump
