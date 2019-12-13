@@ -20,9 +20,9 @@ Run the system_level_main.m file.
 ### Summary
 The system is optimised in terms of cost.
 ## Sub system 1 - Piping
-intro here
+This system is to optimise the pipe size, diameter and layout for teh water distribution within the dishwasher.
 ### How to run
-Run the Main.m file 
+Run subsystem1.m file, found in Subsystem1 folder
 ### Summary
 Pipes are optimised
 ## Sub system 2 - Heating element
