@@ -31,7 +31,7 @@ Pipes are optimised
 ## Sub system 2 - Heating element
 This subsystem optimises heat flux (a measure of watts per square meter) for the heating element.
 ### How to run
-Run the Subsystem_2.m file.
+Run the [Subsystem_2.m](Subsystem2/Subsytem2.m) file.
 ### Summary
 The heating element design is optimised
 ## Sub system 3 - Pump
