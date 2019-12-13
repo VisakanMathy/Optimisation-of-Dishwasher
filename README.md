@@ -38,6 +38,7 @@ The heating element design is optimised
 This subsystem optimises power output (wattage) of centrifugal pump's motor.
 ### How to run
 Run the [optimization_subsystem_3.m](Subsystem3/optimization_subsystem_3.m) file.
+### Summary
 Pipes are optimised
 ## Sub system 4 - Spray mechanism
 The spray mechanism is the subsystems which designates how the water is distributed across the plates and the goal of this problem was to find the optimal configuration to optimise the rotation of the spray arm in order to increase the cleaning efficiency
