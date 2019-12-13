@@ -40,6 +40,6 @@ Pipes are optimised
 ## Sub system 4 - Spray mechanism
 The spray mechanism is the subsystems which designates how the water is distributed across the plates and the goal of this problem was to find the optimal configuration to optimise the rotation of the spray arm in order to increase the cleaning efficiency
 ### How to run
-Run the spray_mechanism_main.m file 
+Run the [spray_mechanism_main.m](Subsystem4/spray_mechanism_main.m) file 
 ### Summary
 Ultimately a configuration is defined and the rotation is optimised to have an agular velocity 18 rad/s
