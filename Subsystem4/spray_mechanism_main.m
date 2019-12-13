@@ -45,8 +45,7 @@ plot(numberOfHoles,omega)
 title('The effect of number of holes on omega')
 xlabel('Number of holes')
 ylabel('Angular velocity (rad/s)')
-
-
+t=table(numberOfHoles,omega)
 %% Testing Non Gradient methods
 %Using randi to entirely randomise starting points before running gradient
 %based methods.
