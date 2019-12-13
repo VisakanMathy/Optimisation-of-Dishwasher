@@ -23,7 +23,7 @@ Run the system_level_main.m file.
 ### Summary
 The system is optimised in terms of cost.
 ## Sub system 1 - Piping
-[washing machine diagram.png](washing_machine_diagram.png) is an image showing the simplified layout of the piping inside a dishwasher water distribution system
+Write this again?
 ### How to run
 Run the Main.m file 
 ### Summary
