@@ -78,13 +78,9 @@ a = toc;
 as(1) = as(1) + a;
 as(2) = as(2) + fval;
 end
-ip = ip/runs;
-sqp = sqp/runs;
-as = as/runs;
-Algorithms = {'Interior Point';'SQP';'Active set'};
-Mean_Omega=[ip(2);sqp(2);as(2)];
-Mean_Time=[ip(1);sqp(1);as(1)];
-T = table(Algorithms,Mean_Omega,Mean_Time)
+ip/runs;
+sqp/runs;
+as/runs;
 %% Post global search algorithm values
 %Using randi to entirely randomise starting points bfor a global search and
 %then use the output x values for gradient based search methods
