@@ -24,7 +24,7 @@ This combines subsystem 1,2 and 3 to find the monetary cost value over the dishw
 
 ### How to run
 
-Run the system_level_main.m file.
+Run the [system_level_main.m](System/system_level_main.m) file.
 
 ### Summary
 
