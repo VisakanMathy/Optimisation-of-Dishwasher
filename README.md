@@ -21,11 +21,11 @@ Run the Main.m file
 ### Summary
 Pipes are optimised
 ## Sub system 2 - Heating element
-intro here
+This subsystem optimises heat flux (a measure of watts per square meter) for the heating element.
 ### How to run
-Run the Main.m file 
+Run the Subsystem_2.m file with cons2.m, cons3.m, cons4.m and cons5.m open
 ### Summary
-Pipes are optimised
+The heating element design is optimised
 ## Sub system 3 - Pump
 intro here
 ### How to run
