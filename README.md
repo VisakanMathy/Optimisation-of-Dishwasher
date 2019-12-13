@@ -62,7 +62,9 @@ This subsystem optimises power output (wattage) of centrifugal pump's motor.
 
 ### How to run
 
-Run the [optimization_subsystem_3.m](Subsystem3/optimization_subsystem_3.m) file.
+Run the [optimization_subsystem_3.m](Subsystem3/optimization_subsystem_3.m) file. To produce all the graphs.
+The results can also be produced by running each section individually allowing for finding results for tables.
+The code follows a logical order presented in the report
 
 ### Summary
 
