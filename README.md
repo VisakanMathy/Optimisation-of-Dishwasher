@@ -32,7 +32,7 @@ Run the Subsystem_2.m file.
 ### Summary
 The heating element design is optimised
 ## Sub system 3 - Pump
-intro here
+This subsystem optimises centrifugal pump's motor power (wattage) output.
 ### How to run
 Run the Main.m file 
 ### Summary
